@@ -1,0 +1,28 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <div>
+                    <h3 class="team-title">HOME</h3>
+                    <div class="score" id="home-score-el">0</div>
+                    <button class="btn" onclick="addOne()">+1</button>
+                    <button class="btn" onclick="addTwo()">+2</button>
+                    <button class="btn" onclick="addThree()">+3</button>
+                </div>
+                <div>
+                    <h3 class="team-title">GUEST</h3>
+                    <div class="score" id="guest-score-el">0</div>
+                    <button class="btn" onclick="addOneGuest()">+1</button>
+                    <button class="btn" onclick="addTwoGuest()">+2</button>
+                    <button class="btn" onclick="addThreeGuest()">+3</button>
+                </div>
+            </div>
+            <button class="btn" onclick="resetGame()">RESET</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

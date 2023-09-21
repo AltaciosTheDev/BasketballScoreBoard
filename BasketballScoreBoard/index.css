@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.team-title{
+    margin: 50px 0px 25px 0px;
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    color: #EEE;
+}
+
+.main{
+    margin: auto;
+    width: 600px;
+    height: 420px;
+    border: 6px solid #9AABD8;
+    background: #1B244A; 
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto 30px auto;
+}
+
+.score{
+    padding: 0px;
+    background: black;
+    border-radius: 5px;
+    color: #F94F6D;
+    font-family: "timerFont";
+    font-size: 90px;
+    margin-bottom: 25px;
+}
+
+.btn{
+    margin: 0px 5px 0px 5px;
+    color: #9AABD8;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Verdana;
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    background: none;
+    padding: 15px 12px 15px 12px;
+}
+
+@font-face {
+  font-family: timerFont;
+  src: url('digital-7.ttf');
+}
+
